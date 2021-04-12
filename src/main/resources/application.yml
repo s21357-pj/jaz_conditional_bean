@@ -1,0 +1,16 @@
+---
+module:
+    enabled:
+spring:
+    config:
+        activate:
+            on-profile: default
+
+---
+module:
+    enabled: true
+spring:
+    config:
+        activate:
+            on-profile: test
+
